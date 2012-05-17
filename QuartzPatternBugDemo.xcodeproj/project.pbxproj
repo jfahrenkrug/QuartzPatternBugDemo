@@ -13,6 +13,8 @@
 		8F827E6B15655D3300F72338 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 8F827E6915655D3300F72338 /* Credits.rtf */; };
 		8F827E6E15655D3300F72338 /* SPWKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F827E6D15655D3300F72338 /* SPWKAppDelegate.m */; };
 		8F827E7115655D3400F72338 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F827E6F15655D3400F72338 /* MainMenu.xib */; };
+		8F827E7915655D6F00F72338 /* SPWKScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F827E7815655D6F00F72338 /* SPWKScrollView.m */; };
+		8F827E7C1565607500F72338 /* SPWKDocumentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F827E7B1565607500F72338 /* SPWKDocumentView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,14 +23,18 @@
 		8F827E5D15655D3300F72338 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		8F827E5E15655D3300F72338 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		8F827E5F15655D3300F72338 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		8F827E6215655D3300F72338 /* QuartzPatternBugDemo-Info.plist */ = {isa = PBXFileReference; path = "QuartzPatternBugDemo-Info.plist"; sourceTree = "<group>"; };
+		8F827E6215655D3300F72338 /* QuartzPatternBugDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QuartzPatternBugDemo-Info.plist"; sourceTree = "<group>"; };
 		8F827E6415655D3300F72338 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8F827E6615655D3300F72338 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		8F827E6815655D3300F72338 /* QuartzPatternBugDemo-Prefix.pch */ = {isa = PBXFileReference; path = "QuartzPatternBugDemo-Prefix.pch"; sourceTree = "<group>"; };
+		8F827E6815655D3300F72338 /* QuartzPatternBugDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QuartzPatternBugDemo-Prefix.pch"; sourceTree = "<group>"; };
 		8F827E6A15655D3300F72338 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		8F827E6C15655D3300F72338 /* SPWKAppDelegate.h */ = {isa = PBXFileReference; path = SPWKAppDelegate.h; sourceTree = "<group>"; };
+		8F827E6C15655D3300F72338 /* SPWKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPWKAppDelegate.h; sourceTree = "<group>"; };
 		8F827E6D15655D3300F72338 /* SPWKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPWKAppDelegate.m; sourceTree = "<group>"; };
 		8F827E7015655D3400F72338 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		8F827E7715655D6F00F72338 /* SPWKScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPWKScrollView.h; sourceTree = "<group>"; };
+		8F827E7815655D6F00F72338 /* SPWKScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPWKScrollView.m; sourceTree = "<group>"; };
+		8F827E7A1565607500F72338 /* SPWKDocumentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPWKDocumentView.h; sourceTree = "<group>"; };
+		8F827E7B1565607500F72338 /* SPWKDocumentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPWKDocumentView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +91,10 @@
 				8F827E6C15655D3300F72338 /* SPWKAppDelegate.h */,
 				8F827E6D15655D3300F72338 /* SPWKAppDelegate.m */,
 				8F827E6F15655D3400F72338 /* MainMenu.xib */,
+				8F827E7715655D6F00F72338 /* SPWKScrollView.h */,
+				8F827E7815655D6F00F72338 /* SPWKScrollView.m */,
+				8F827E7A1565607500F72338 /* SPWKDocumentView.h */,
+				8F827E7B1565607500F72338 /* SPWKDocumentView.m */,
 				8F827E6115655D3300F72338 /* Supporting Files */,
 			);
 			path = QuartzPatternBugDemo;
@@ -169,6 +179,8 @@
 			files = (
 				8F827E6715655D3300F72338 /* main.m in Sources */,
 				8F827E6E15655D3300F72338 /* SPWKAppDelegate.m in Sources */,
+				8F827E7915655D6F00F72338 /* SPWKScrollView.m in Sources */,
+				8F827E7C1565607500F72338 /* SPWKDocumentView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
