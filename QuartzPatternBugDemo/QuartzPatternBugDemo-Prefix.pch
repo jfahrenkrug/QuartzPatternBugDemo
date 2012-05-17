@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'QuartzPatternBugDemo' target in the 'QuartzPatternBugDemo' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

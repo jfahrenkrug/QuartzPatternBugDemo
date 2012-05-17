@@ -1,0 +1,297 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8F827E5B15655D3300F72338 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F827E5A15655D3300F72338 /* Cocoa.framework */; };
+		8F827E6515655D3300F72338 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8F827E6315655D3300F72338 /* InfoPlist.strings */; };
+		8F827E6715655D3300F72338 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F827E6615655D3300F72338 /* main.m */; };
+		8F827E6B15655D3300F72338 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 8F827E6915655D3300F72338 /* Credits.rtf */; };
+		8F827E6E15655D3300F72338 /* SPWKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F827E6D15655D3300F72338 /* SPWKAppDelegate.m */; };
+		8F827E7115655D3400F72338 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F827E6F15655D3400F72338 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8F827E5615655D3300F72338 /* QuartzPatternBugDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuartzPatternBugDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F827E5A15655D3300F72338 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		8F827E5D15655D3300F72338 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		8F827E5E15655D3300F72338 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		8F827E5F15655D3300F72338 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8F827E6215655D3300F72338 /* QuartzPatternBugDemo-Info.plist */ = {isa = PBXFileReference; path = "QuartzPatternBugDemo-Info.plist"; sourceTree = "<group>"; };
+		8F827E6415655D3300F72338 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8F827E6615655D3300F72338 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8F827E6815655D3300F72338 /* QuartzPatternBugDemo-Prefix.pch */ = {isa = PBXFileReference; path = "QuartzPatternBugDemo-Prefix.pch"; sourceTree = "<group>"; };
+		8F827E6A15655D3300F72338 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		8F827E6C15655D3300F72338 /* SPWKAppDelegate.h */ = {isa = PBXFileReference; path = SPWKAppDelegate.h; sourceTree = "<group>"; };
+		8F827E6D15655D3300F72338 /* SPWKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPWKAppDelegate.m; sourceTree = "<group>"; };
+		8F827E7015655D3400F72338 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8F827E5315655D3300F72338 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F827E5B15655D3300F72338 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8F827E4B15655D3300F72338 = {
+			isa = PBXGroup;
+			children = (
+				8F827E6015655D3300F72338 /* QuartzPatternBugDemo */,
+				8F827E5915655D3300F72338 /* Frameworks */,
+				8F827E5715655D3300F72338 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8F827E5715655D3300F72338 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8F827E5615655D3300F72338 /* QuartzPatternBugDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8F827E5915655D3300F72338 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8F827E5A15655D3300F72338 /* Cocoa.framework */,
+				8F827E5C15655D3300F72338 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8F827E5C15655D3300F72338 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8F827E5D15655D3300F72338 /* AppKit.framework */,
+				8F827E5E15655D3300F72338 /* CoreData.framework */,
+				8F827E5F15655D3300F72338 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		8F827E6015655D3300F72338 /* QuartzPatternBugDemo */ = {
+			isa = PBXGroup;
+			children = (
+				8F827E6C15655D3300F72338 /* SPWKAppDelegate.h */,
+				8F827E6D15655D3300F72338 /* SPWKAppDelegate.m */,
+				8F827E6F15655D3400F72338 /* MainMenu.xib */,
+				8F827E6115655D3300F72338 /* Supporting Files */,
+			);
+			path = QuartzPatternBugDemo;
+			sourceTree = "<group>";
+		};
+		8F827E6115655D3300F72338 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8F827E6215655D3300F72338 /* QuartzPatternBugDemo-Info.plist */,
+				8F827E6315655D3300F72338 /* InfoPlist.strings */,
+				8F827E6615655D3300F72338 /* main.m */,
+				8F827E6815655D3300F72338 /* QuartzPatternBugDemo-Prefix.pch */,
+				8F827E6915655D3300F72338 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8F827E5515655D3300F72338 /* QuartzPatternBugDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F827E7415655D3400F72338 /* Build configuration list for PBXNativeTarget "QuartzPatternBugDemo" */;
+			buildPhases = (
+				8F827E5215655D3300F72338 /* Sources */,
+				8F827E5315655D3300F72338 /* Frameworks */,
+				8F827E5415655D3300F72338 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuartzPatternBugDemo;
+			productName = QuartzPatternBugDemo;
+			productReference = 8F827E5615655D3300F72338 /* QuartzPatternBugDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8F827E4D15655D3300F72338 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SPWK;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = Springenwerk;
+			};
+			buildConfigurationList = 8F827E5015655D3300F72338 /* Build configuration list for PBXProject "QuartzPatternBugDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8F827E4B15655D3300F72338;
+			productRefGroup = 8F827E5715655D3300F72338 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8F827E5515655D3300F72338 /* QuartzPatternBugDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8F827E5415655D3300F72338 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F827E6515655D3300F72338 /* InfoPlist.strings in Resources */,
+				8F827E6B15655D3300F72338 /* Credits.rtf in Resources */,
+				8F827E7115655D3400F72338 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8F827E5215655D3300F72338 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F827E6715655D3300F72338 /* main.m in Sources */,
+				8F827E6E15655D3300F72338 /* SPWKAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8F827E6315655D3300F72338 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F827E6415655D3300F72338 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8F827E6915655D3300F72338 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F827E6A15655D3300F72338 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		8F827E6F15655D3400F72338 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F827E7015655D3400F72338 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8F827E7215655D3400F72338 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		8F827E7315655D3400F72338 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		8F827E7515655D3400F72338 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QuartzPatternBugDemo/QuartzPatternBugDemo-Prefix.pch";
+				INFOPLIST_FILE = "QuartzPatternBugDemo/QuartzPatternBugDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8F827E7615655D3400F72338 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QuartzPatternBugDemo/QuartzPatternBugDemo-Prefix.pch";
+				INFOPLIST_FILE = "QuartzPatternBugDemo/QuartzPatternBugDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8F827E5015655D3300F72338 /* Build configuration list for PBXProject "QuartzPatternBugDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F827E7215655D3400F72338 /* Debug */,
+				8F827E7315655D3400F72338 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F827E7415655D3400F72338 /* Build configuration list for PBXNativeTarget "QuartzPatternBugDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F827E7515655D3400F72338 /* Debug */,
+				8F827E7615655D3400F72338 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8F827E4D15655D3300F72338 /* Project object */;
+}
